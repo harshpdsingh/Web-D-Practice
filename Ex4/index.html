@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MultiColor Nav Bar</title>
+    <style>
+      :root {
+        --prColor: #d37a7a;
+        --pColor: rgb(60, 105, 143);
+        --sColor: #f0f0f0;
+      }
+      body{
+        margin: 0;
+        padding: 0;
+        background-color: var(--prColor);
+      }
+      .nav {
+        background-color: var(--pColor);
+        color: var(--sColor);
+      }
+      ul {
+        display: flex;
+        list-style: none;
+      }
+
+      ul li {
+        margin: 5px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Help</li>
+      </ul>
+    </div>
+  </body>
+</html>
