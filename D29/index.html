@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors(More)</title>
+    <style>
+        /* .box:nth-child(2){
+            background-color: blue;
+        }
+        .box::first-line{
+            color: aquamarine;
+        } */
+         /* .boxes *{
+            color: blue;
+            border: 5px solid black;
+         }
+        p, a, .box, [data-color="primary"]{
+            padding-top: 45px;
+         } */
+          /* .box:nth-child(even){
+            background-color: blue;
+          }
+          .box:nth-last-child(1){
+            background-color: slateblue;
+          } */
+        /* .boxes::before {   Boxes ke starting mein content daal diya before mein baki children ke
+            content: "PD";
+        } */
+        /* .boxes::after {   Boxes ke ending mein content daal diya after mein baki children ke
+            content: "PD";
+        } */
+         ::selection{
+            color: aqua;
+            background-color: black;
+         }
+         .box::first-letter{
+            color: aquamarine;
+         }
+         input::placeholder{
+            color: brown;
+         }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Hello</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <input type="text" placeholder="type here">
+    </div>
+</body>
+</html>

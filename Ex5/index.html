@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Layout Design</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      header{
+        background-color: salmon;
+        height: 50px;
+        position: sticky;
+        top: 0;
+      }
+      .boxes {
+        background-color: aqua;
+        margin: 12px 34px;
+        text-align: center;
+        padding: 55px 23px;
+      }
+      .box1 {
+        background-color: blueviolet;
+        height: 70vh;
+        width: 40%;
+        display: inline-block;
+        margin-right: 15px;
+      }
+      .box2 {
+        background-color: rgb(21, 0, 255);
+        height: 70vh;
+        width: 40%;
+        display: inline-block;
+        margin-left: 15px;
+      }
+      .text {
+        text-align: center;
+        font-size: xx-large;
+        border: 3px solid black;
+        border-radius: 20px;
+        margin: 5px;
+      }
+      footer .circle{
+        background-color: orangered;
+        height: 32px;
+        width: 32px;
+        bottom: 5px;
+        right: 5px;
+        position: fixed;
+        border-radius: 20px;
+      }
+      footer {
+        height: 100px;
+        background-color: bisque;
+        margin-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><div class="nav"></div></header>
+    <main>
+      <div class="boxes">
+        <div class="box1"></div>
+        <div class="box2"></div>
+      </div>
+
+      <div class="text">Welcome Everyone</div>
+    </main>
+    <footer>
+        <div class="circle"></div>
+    </footer>
+  </body>
+</html>
