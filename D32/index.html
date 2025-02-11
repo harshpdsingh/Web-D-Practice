@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Transform</title>
+    <style>
+        .container{
+            height: 80vh;
+            width: 100vw;
+            border: 2px solid purple;
+
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: blanchedalmond;
+            border: 2px solid black;
+            /* transform: rotate(40deg); */
+            /* transform: rotate(0.25turn); */
+            /* transform: rotatey(45deg); */
+            /* transform: skewy(45deg);  skew property is not available for z axis. */
+            /* can also apply multiple transforms property by simply writing it transform: property1 property2....; */
+            transform-origin: -50% -50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>
